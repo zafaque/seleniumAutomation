@@ -1,0 +1,13 @@
+<suite name="AutomationSuite" parallel="none">
+    <test name="TestChrome">
+    <groups>
+    	<run>
+    	<inclde name="testingDelete"/>
+    	</run>
+    </groups>   
+  	<parameter name="browser" value="chrome"/>
+  	<packages>
+		<package name="script"/>
+  	</packages>
+  </test>
+</suite>
